@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(29, 28, 28);
+}
+
+#ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+.paddle {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: white;
+    left: 50px;
+}
+
+#points {
+    text-align:center;
+    font-size:70px;
+    color:white;
+}
